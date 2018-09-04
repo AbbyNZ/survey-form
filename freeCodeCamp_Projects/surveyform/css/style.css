@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,500);
+
+html, body {
+  font-family: "Montserrat";
+  text-align: center;
+  background-color: #89a9dd;
+  min-width: 320px;
+}
+
+#survey-form {
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 900px;
+  padding-top: 10px;
+  padding: 10px;
+}
+.row {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-bottom: 1rem;
+}
+
+.radio, .checkbox {
+  position: relative;
+  margin-left: 5px;
+  left: -35px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.inputField {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  vertical-align: middle
+}
+
+.input-field {
+  height: 30px;
+  width: 250px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 1px;
+}
+
+.dropdown {
+  height: 40px;
+  width: 150px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.rating, input[type="checkbox"] {
+  float: left;
+  margin-right: 5px;
+}
+
+.commentField {
+  width: 300px;
+  height: 100px;
+  margin: 10px;
+  padding: 5px;
+  border: 2px solid #c4c0c0;
+  border-radius: 2px;  
+}
+
+#submit {
+  background-color: #1c10cc;
+  border-radius: 3px;
+  color: white;
+  height: 40px;
+  width: 70px;
+  margin: 5px;
+}
+
+@media screen and (max-width: 833px) {
+  .input-field {
+    width: 80%;
+  }
+  .commentField {
+    width: 80%;
+  }
+  select {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .inputField {
+    width: 80%;
+    float: left;
+  }
+  .input-field {
+    width: 100%;
+  }
+  .commentField {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
+}
