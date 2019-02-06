@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+body {
+	background-color: aliceblue;
+}
+
+input {
+	width: 100%;
+	padding: 20px;
+}
+
+.search-form {
+	max-width: 400px;
+	margin: 50px auto;
+}
+
+input.search {
+	margin: 0;
+	text-align: center;
+	outline: 0;
+	border: 10px solid #F7F7F7;
+	width: 120%;
+	left: -10%;
+	position: relative;
+	top: 10px;
+	z-index: 2;
+	border-radius: 5px;
+	font-size: 20px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.19);
+}
+
+.suggestions {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.suggestions li {
+	list-style: none;
+	border-bottom: 1px solid #D8D8D8;
+	margin: 0;
+	padding: 20px
+}
+
+h4 {
+	text-align: center;
+}
